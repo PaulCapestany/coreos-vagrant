@@ -33,13 +33,13 @@ $num_instances=3
 #$instance_name_prefix="core"
 
 # Official CoreOS channel from which updates should be downloaded
-$update_channel='stable'
+$update_channel='alpha'
 
 # Log the serial consoles of CoreOS VMs to log/
 # Enable by setting value to true, disable with false
 # WARNING: Serial logging is known to result in extremely high CPU usage with
 # VirtualBox, so should only be used in debugging situations
-#$enable_serial_logging=false
+# $enable_serial_logging=true
 
 # Enable port forwarding of Docker TCP socket
 # Set to the TCP port you want exposed on the *host* machine, default is 2375
